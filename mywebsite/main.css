@@ -1,0 +1,60 @@
+body{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.jumbotron{
+  background: url('blue.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+
+h1{
+  font-family: 'Alfa Slab One', cursive;
+  text-align: center;
+  letter-spacing: 8px;
+  font-size: 56px;
+}
+/*.btn{
+  background: none;
+  border-radius: none;
+  border: 2px solid #fff;
+  width: 200px;
+  padding: 12px;
+  font-size: 16px;
+
+}*/
+.main-photo{
+  border-radius: 50%;
+  border: 2px solid #fff;
+  height: 200px;
+  width: 200px;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  margin: 8px;
+}
+
+footer  a{
+margin: 8px;
+}
+.fa{
+  transition: height 0.5s ease;
+}
+.fa:hover{
+  height: 55px;
+}
+
+@media (max-width: 992px) {
+  .col-md-4 {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+}
